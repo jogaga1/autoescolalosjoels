@@ -15,7 +15,7 @@ Per això, aquest projecte vol crear una pàgina web per a una autoescola on tot
 Aquesta idea ajuda tant als alumnes, que podran preparar-se millor per als exàmens, com als professors, que tindran més eines per fer el seu treball de manera més còmoda i ordenada.
 La necessitat que es vol cobrir és fer que l’aprenentatge a l’autoescola sigui més fàcil, ràpid i accessible per a tothom.
 
-##Abast i objectius
+## Abast i objectius
 Objectiu general:
 Crear una pàgina web per a una autoescola on els alumnes puguin fer tests, veure vídeos, consultar el calendari i resoldre dubtes amb els professors.
 Objectius específics:
@@ -41,10 +41,10 @@ Mostrar notificacions i un resum de resultats per veure el progrés de cada alum
 
 
 
-##Abast del projecte:
+## Abast del projecte:
 
 El projecte inclourà el disseny i la creació de la pàgina web amb totes aquestes funcions i es faran proves per comprovar que tot funcioni bé.
-##Limitacions:
+## Limitacions:
 
 No s’inclourà la creació d’una aplicació mòbil ni la connexió amb altres sistemes externs com la DGT o plataformes de pagament.
 El disseny serà senzill però pràctic, pensat perquè sigui fàcil d’utilitzar per alumnes i professors.
