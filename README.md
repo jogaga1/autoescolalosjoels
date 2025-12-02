@@ -1,4 +1,4 @@
-# autoescolalosjoels
+# Autoescola els Joels
 Joel Ventura i Joel García
 
 ## Resum autoescola
