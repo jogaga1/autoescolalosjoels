@@ -46,32 +46,32 @@ El disseny serà senzill però pràctic, pensat perquè sigui fàcil d’utilitz
 
 ### Mòduls relacionats amb el projecte
 
-Aplicacions web → desenvolupament de la pàgina i les seves funcionalitats.
+* Aplicacions web → desenvolupament de la pàgina i les seves funcionalitats.
 
-Sistemes operatius en xarxa → gestió del servidor, autenticació i permisos.
+* Sistemes operatius en xarxa → gestió del servidor, autenticació i permisos.
 
-Xarxes locals → comunicació entre clients i servidor.
+* Xarxes locals → comunicació entre clients i servidor.
 
-Seguretat informàtica → protecció de dades i seguretat d’usuaris.
+* Seguretat informàtica → protecció de dades i seguretat d’usuaris.
 
-Serveis de xarxa → servidors, bases de dades i notificacions.
+* Serveis de xarxa → servidors, bases de dades i notificacions.
 
-Digitalització aplicada als sectors productius → transformació digital de l’autoescola.
+* Digitalització aplicada als sectors productius → transformació digital de l’autoescola.
 
-Projecte intermodular → integració final de tot el projecte.
+* Projecte intermodular → integració final de tot el projecte.
 
-Anglès professional → documentació tècnica i ús d’eines en anglès.
+* Anglès professional → documentació tècnica i ús d’eines en anglès.
 
 ### Mòduls amb relació complementària
 
-Muntatge i manteniment d’equips → infraestructura del servidor si fos local.
+* Muntatge i manteniment d’equips → infraestructura del servidor si fos local.
 
-Aplicacions ofimàtiques → només per registrar alumnes o documentació (no part tècnica real).
+* Aplicacions ofimàtiques → només per registrar alumnes o documentació (no part tècnica real).
 
-Sostenibilitat aplicada al sistema productiu → digitalització que redueix paper i recursos.
+* Sostenibilitat aplicada al sistema productiu → digitalització que redueix paper i recursos.
 
-Itinerari personal per a l’ocupabilitat I → competències personals per organitzar el projecte.
+* Itinerari personal per a l’ocupabilitat I → competències personals per organitzar el projecte.
 
-Itinerari personal per a l’ocupabilitat II → competències professionals i seguiment del projecte.
+* Itinerari personal per a l’ocupabilitat II → competències professionals i seguiment del projecte.
 
-Mòdul professional optatiu → depèn del contingut, podria ser complementari.
+* Mòdul professional optatiu → depèn del contingut, podria ser complementari.
