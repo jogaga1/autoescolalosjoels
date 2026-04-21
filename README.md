@@ -1,5 +1,6 @@
 # Autoescola els Joels
 Joel Ventura i Joel García
+
 SMX-2 B
 
 <h1>Context i situació inicial</h1>
