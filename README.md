@@ -1,5 +1,6 @@
 # Autoescola els Joels
 Joel Ventura i Joel García
+SMX-2 B
 
 <h1>Context i situació inicial</h1>
 Avui dia, moltes autoescoles encara fan servir mètodes tradicionals per organitzar les classes teòriques, pràctiques i els tests dels alumnes. Això pot ser un problema, ja que molts alumnes no poden practicar ni resoldre dubtes fora de l’horari de classe, i els professors tampoc tenen una manera fàcil de veure com avança cada alumne.
