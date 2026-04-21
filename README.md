@@ -29,10 +29,6 @@ Fer un inici de sessió per a alumnes i professors.
 * Afegir un calendari amb les hores de classes, pràctiques i exàmens.
 
 
-* Mostrar notificacions i un resum de resultats per veure el progrés de cada alumne.
-
-
-
 ## Abast del projecte:
 
 El projecte inclourà el disseny i la creació de la pàgina web amb totes aquestes funcions i es faran proves per comprovar que tot funcioni bé.
