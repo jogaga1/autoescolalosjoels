@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style_calendar.css">
+    <title>Calendari - Autoescola Online</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Autoescola Els Joels</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inici</a> |
+    <a href="login.html">Inicia sessió</a> |
+    <a href="tests.html">Tests</a> |
+    <a href="videos.html">Vídeos</a> |
+    <a href="clases.html">Classes en línia</a> |
+    <a href="foro.html">Fòrum</a> |
+    <a href="calendario.html">Calendari</a> |
+    <a href="perfil.html">Perfil</a>
+</nav>
+
+<main>
+    <h2>Calendari</h2>
+
+    <div class="calendar-header">
+        <span class="nav-month" onclick="changeMonth(-1)">&#8592;</span>
+        <span id="monthYear"></span>
+        <span class="nav-month" onclick="changeMonth(1)">&#8594;</span>
+    </div>
+
+    <div id="calendar"></div>
+</main>
+
+<footer>
+    © 2026 Autoescola Els Joels
+</footer>
+
+<script>
+const months = ["Gener", "Febrer", "Març", "Abril", "Maig", "Juny",
+                "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre"];
+
+let today = new Date();
+let currentMonth = today.getMonth();
+let currentYear = today.getFullYear();
+let events = {};
+
+function generateCalendar(month, year) {
+
+    const firstDay = (new Date(year, month, 1).getDay() + 6) % 7;
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+    document.getElementById("monthYear").innerText =
+        `${months[month]} ${year}`;
+
+    let table = '<table>';
+
+    table += '<tr><th>Dl</th><th>Dt</th><th>Dc</th><th>Dj</th><th>Dv</th><th>Ds</th><th>Dg</th></tr><tr>';
+
+    let day = 1;
+
+    for (let i = 0; i < 6; i++) {
+
+        for (let j = 0; j < 7; j++) {
+
+            if (i === 0 && j < firstDay) {
+
+                table += '<td></td>';
+
+            } else if (day > daysInMonth) {
+
+                table += '<td></td>';
+
+            } else {
+
+                let dateStr = `${year}-${month + 1}-${day}`;
+
+                table += `<td onclick="addEvent('${dateStr}', this)">${day}`;
+
+                if (events[dateStr]) {
+
+                    for (let evt of events[dateStr]) {
+
+                        table += `<span class="event">${evt}</span>`;
+                    }
+                }
+
+                table += '</td>';
+
+                day++;
+            }
+        }
+
+        table += '</tr>';
+
+        if (day > daysInMonth) break;
+    }
+
+    table += '</table>';
+
+    document.getElementById('calendar').innerHTML = table;
+}
+
+function addEvent(dateStr, cell) {
+
+    const event = prompt("Afegeix un esdeveniment per a aquest dia:");
+
+    if (event) {
+
+        if (!events[dateStr]) {
+            events[dateStr] = [];
+        }
+
+        events[dateStr].push(event);
+
+        const span = document.createElement('span');
+
+        span.className = 'event';
+        span.innerText = event;
+
+        cell.appendChild(span);
+    }
+}
+
+function changeMonth(delta) {
+
+    currentMonth += delta;
+
+    if (currentMonth > 11) {
+
+        currentMonth = 0;
+        currentYear++;
+
+    } else if (currentMonth < 0) {
+
+        currentMonth = 11;
+        currentYear--;
+    }
+
+    generateCalendar(currentMonth, currentYear);
+}
+
+generateCalendar(currentMonth, currentYear);
+</script>
+
+</body>
+</html>
